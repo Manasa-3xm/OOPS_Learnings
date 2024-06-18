@@ -10,6 +10,9 @@ public class App {
         bankAccount.deposit(1234);
         bankAccount.withdraw(230);
         System.out.println(bankAccount.getBalance());
-
+        Car car = new Car();
+        car.move();
+        Bike bike = new Bike();
+        bike.move();
     }
 }
