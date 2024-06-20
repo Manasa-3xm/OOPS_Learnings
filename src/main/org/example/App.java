@@ -14,5 +14,24 @@ public class App {
         car.move();
         Bike bike = new Bike();
         bike.move();
+        Dog dog = new Dog();
+        dog.eat();
+        Overloading overloading = new Overloading();
+        overloading.display(1);
+        overloading.display("hi");
+        Overriding overriding = new Dog.Cat();
+        overriding.makeSound();
+        Overriding overriding1 = new Dog.Bird();
+        overriding1.makeSound();
+        Circle circle = new Circle();
+        circle.draw();
+        Circle.Rectangle rectangle = new Circle.Rectangle();
+        rectangle.draw();
+        Abstract_Animal dog2 = new Dog1();
+        dog2.makeSound();
+        dog2.eat();
+        Employee employee = new Employee("John Doe", 13, 50);
+        employee.setSalary(55550);
+        System.out.println("Emp Info:" + employee.getName() + "," + employee.getAge() + "," + employee.getSalary());
     }
 }
