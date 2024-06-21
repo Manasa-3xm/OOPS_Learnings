@@ -16,5 +16,6 @@ Understanding OOPS concepts
         //implementations . key concepts used in real life world , such as method callbacks, event handling and interface driven designs .
         //encapsulation -> refers to bundling of data(attributes ) and methods that operate on this data into a single unit or class . moreover it is about restricting direct access to some of an objects components , which eans of preventing accidental intefrence and misuse of the methods and data
         // it comes as data hiding acheived by paccess modifiers : public ,protected and default , private and getters and setters , we can control how the fields are accessed and modified.
-         
+         //////////**********COLLECTIONS
+         //java collections framework is a unified architecture for representing and manipulating collections
 
