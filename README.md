@@ -19,3 +19,5 @@ Understanding OOPS concepts
          //////////**********COLLECTIONS
          //java collections framework is a unified architecture for representing and manipulating collections
 
+//////java 8 
+//lambda -> anonymous functions which can be passed as a method arguements or returned from methods just like other object 
