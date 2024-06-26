@@ -3,7 +3,7 @@ package org.example.multithreading;
 public class Print1to100 {
     private static final Object lock = new Object();
     //use synchronized blocks or lock interfaces
-    //to coordinates the o/p between the 2 theads.
+    //to coordinates the o/p between the 2 theards.
     private static int number = 1;
     private static int MAX_NUMBER = 100;
 
