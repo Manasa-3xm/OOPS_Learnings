@@ -14,6 +14,7 @@ public class OptionalExample {
         configMap.put("key1", "value1");
         configMap.put("key2", "value2");
         configMap.put("key3", null); // Simulate a key with null value
+        //if the field is passed with null it avoid and ignores will no print that value it in turn avoids the nullpointer exception.
     }
 
     public static void main(String[] args) {
